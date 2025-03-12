@@ -16,5 +16,17 @@ namespace MegaDesk
         {
             InitializeComponent();
         }
+
+        private void SearchQuotes_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ToStart_Click(object sender, EventArgs e)
+        {
+            var mainMenu = (MainMenu)Tag;
+            mainMenu.Show();
+            Close();
+        }
     }
 }

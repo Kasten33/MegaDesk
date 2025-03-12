@@ -84,7 +84,7 @@
             this.Exit3.UseVisualStyleBackColor = true;
             this.Exit3.Click += new System.EventHandler(this.ExitApp);
             // 
-            // Form1
+            // MainMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -94,8 +94,8 @@
             this.Controls.Add(this.ViewQuotes);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.NewQuote);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "MainMenu";
+            this.Text = "Main Menu";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 

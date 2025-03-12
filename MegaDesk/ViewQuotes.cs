@@ -16,5 +16,17 @@ namespace MegaDesk
         {
             InitializeComponent();
         }
+
+        private void ViewQuotes_Load(object sender, EventArgs e)
+        {
+            DateLabel.Text = DateTime.Now.ToString();
+        }
+
+        private void BackToForm_Click(object sender, EventArgs e)
+        {
+            var mainMenu = (MainMenu)Tag;
+            mainMenu.Show();
+            Close();
+        }
     }
 }
