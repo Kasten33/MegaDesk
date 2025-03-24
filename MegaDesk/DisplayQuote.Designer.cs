@@ -88,7 +88,7 @@
             // DrawerLabel
             // 
             this.DrawerLabel.AutoSize = true;
-            this.DrawerLabel.Location = new System.Drawing.Point(647, 232);
+            this.DrawerLabel.Location = new System.Drawing.Point(653, 232);
             this.DrawerLabel.Name = "DrawerLabel";
             this.DrawerLabel.Size = new System.Drawing.Size(57, 16);
             this.DrawerLabel.TabIndex = 23;
@@ -97,7 +97,7 @@
             // DepthLabel
             // 
             this.DepthLabel.AutoSize = true;
-            this.DepthLabel.Location = new System.Drawing.Point(661, 202);
+            this.DepthLabel.Location = new System.Drawing.Point(667, 202);
             this.DepthLabel.Name = "DepthLabel";
             this.DepthLabel.Size = new System.Drawing.Size(43, 16);
             this.DepthLabel.TabIndex = 24;
@@ -106,7 +106,7 @@
             // MaterialLabel
             // 
             this.MaterialLabel.AutoSize = true;
-            this.MaterialLabel.Location = new System.Drawing.Point(647, 301);
+            this.MaterialLabel.Location = new System.Drawing.Point(655, 301);
             this.MaterialLabel.Name = "MaterialLabel";
             this.MaterialLabel.Size = new System.Drawing.Size(55, 16);
             this.MaterialLabel.TabIndex = 25;
@@ -115,7 +115,7 @@
             // DeliveryLabel
             // 
             this.DeliveryLabel.AutoSize = true;
-            this.DeliveryLabel.Location = new System.Drawing.Point(638, 331);
+            this.DeliveryLabel.Location = new System.Drawing.Point(644, 331);
             this.DeliveryLabel.Name = "DeliveryLabel";
             this.DeliveryLabel.Size = new System.Drawing.Size(66, 16);
             this.DeliveryLabel.TabIndex = 26;
@@ -124,7 +124,7 @@
             // TotalSizeLabel
             // 
             this.TotalSizeLabel.AutoSize = true;
-            this.TotalSizeLabel.Location = new System.Drawing.Point(655, 266);
+            this.TotalSizeLabel.Location = new System.Drawing.Point(672, 266);
             this.TotalSizeLabel.Name = "TotalSizeLabel";
             this.TotalSizeLabel.Size = new System.Drawing.Size(38, 16);
             this.TotalSizeLabel.TabIndex = 27;
@@ -235,7 +235,7 @@
             this.Controls.Add(this.CustomerName);
             this.Controls.Add(this.BackToForm1);
             this.Name = "DisplayQuote";
-            this.Text = "Form1";
+            this.Text = "Dipslay Quote";
             this.Load += new System.EventHandler(this.DisplayQuotes_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

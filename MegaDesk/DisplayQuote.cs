@@ -14,10 +14,11 @@ namespace MegaDesk
     {
         private DeskQuote DeskQuote;
 
-        public DisplayQuote(DeskQuote deskQuote)
+        public DisplayQuote(DeskQuote deskQuote, MainMenu mainMenu)
         {
             InitializeComponent();
             DeskQuote = deskQuote;
+            Tag = mainMenu;
         }
         private void DisplayQuotes_Load(object sender, EventArgs e)
         {

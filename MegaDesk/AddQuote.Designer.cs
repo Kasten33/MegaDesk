@@ -50,10 +50,14 @@
             this.DepthErrorProvider = new System.Windows.Forms.ErrorProvider(this.components);
             this.DCounterErrorProvider = new System.Windows.Forms.ErrorProvider(this.components);
             this.ShippingErrorProvider = new System.Windows.Forms.ErrorProvider(this.components);
+            this.NameErrorProvider = new System.Windows.Forms.ErrorProvider(this.components);
+            this.MaterialErrorProvider = new System.Windows.Forms.ErrorProvider(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.WidthErrorProvider)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.DepthErrorProvider)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.DCounterErrorProvider)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ShippingErrorProvider)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.NameErrorProvider)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.MaterialErrorProvider)).BeginInit();
             this.SuspendLayout();
             // 
             // DrawerInput
@@ -76,6 +80,12 @@
             // MaterialComboBox
             // 
             this.MaterialComboBox.FormattingEnabled = true;
+            this.MaterialComboBox.Items.AddRange(new object[] {
+            "Pine",
+            "Laminate",
+            "Veneer",
+            "Oak",
+            "Rosewood"});
             this.MaterialComboBox.Location = new System.Drawing.Point(253, 274);
             this.MaterialComboBox.Name = "MaterialComboBox";
             this.MaterialComboBox.Size = new System.Drawing.Size(178, 24);
@@ -235,6 +245,14 @@
             // 
             this.ShippingErrorProvider.ContainerControl = this;
             // 
+            // NameErrorProvider
+            // 
+            this.NameErrorProvider.ContainerControl = this;
+            // 
+            // MaterialErrorProvider
+            // 
+            this.MaterialErrorProvider.ContainerControl = this;
+            // 
             // AddQuote
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -263,6 +281,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.DepthErrorProvider)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.DCounterErrorProvider)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ShippingErrorProvider)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.NameErrorProvider)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.MaterialErrorProvider)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -290,5 +310,7 @@
         private System.Windows.Forms.ErrorProvider DepthErrorProvider;
         private System.Windows.Forms.ErrorProvider DCounterErrorProvider;
         private System.Windows.Forms.ErrorProvider ShippingErrorProvider;
+        private System.Windows.Forms.ErrorProvider NameErrorProvider;
+        private System.Windows.Forms.ErrorProvider MaterialErrorProvider;
     }
 }
